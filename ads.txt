@@ -1,4 +1,1 @@
-<?php
-header('Location: https://srv.adstxtmanager.com/19390/web-tool.top');
-exit;
-?>
+#Ads.txt web-tool.top
