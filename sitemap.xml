@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://www.web-tool.top/</loc>
     <lastmod>2025-11-14T23:51:29+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/policy/</loc>
+    <loc>https://www.web-tool.top/policy/</loc>
     <lastmod>2025-11-14T23:51:29+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://www.web-tool.top/about/</loc>
     <lastmod>2020-07-28T19:27:08+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://www.web-tool.top/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://www.web-tool.top/tags/</loc>
   </url>
 </urlset>
