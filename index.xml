@@ -22,5 +22,12 @@
       <guid>https://www.web-tool.top/about/</guid>
       <description>&lt;p&gt;本站是基于&lt;strong&gt;纯静态&lt;/strong&gt;的网址导航网站 &lt;a href=&#34;https://github.com/WebStackPage/WebStackPage.github.io&#34;&gt;webstack.cc&lt;/a&gt; 制作的 &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; 主题，其中部分代码参考了以下几个开源项目：&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/liutongxu/liutongxu.github.io&#34;&gt;https://github.com/liutongxu/liutongxu.github.io&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/iplaycode/webstack-hugo&#34;&gt;https://github.com/iplaycode/webstack-hugo&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;网站聚合了一些使用频率较高的在线工具和一些常用的大平台网址链接，如果本网站能给您提供便利，那将是站长的荣幸。网站的顶部是工具栏，包含&lt;strong&gt;常用&lt;/strong&gt;、&lt;strong&gt;搜索&lt;/strong&gt;、&lt;strong&gt;工具&lt;/strong&gt;、&lt;strong&gt;社区&lt;/strong&gt;、&lt;strong&gt;生活&lt;/strong&gt;、和&lt;strong&gt;求职&lt;/strong&gt;。网站的主体为使用频率比较高的大型网站的链接标签，涵盖了&lt;strong&gt;常用推荐&lt;/strong&gt;、&lt;strong&gt;科研办公&lt;/strong&gt;、&lt;strong&gt;悠闲娱乐&lt;/strong&gt;、&lt;strong&gt;素材资源&lt;/strong&gt;、&lt;strong&gt;开发设计&lt;/strong&gt;和&lt;strong&gt;资讯学习&lt;/strong&gt;，如左上侧边栏所示，可以细分为：&lt;/p&gt;</description>
     </item>
+    <item>
+      <title></title>
+      <link>https://www.web-tool.top/tools/QR-Code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.web-tool.top/tools/QR-Code/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
