@@ -220,7 +220,7 @@
             </div>
         </header>
 
-        <main class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <main class="grid grid-cols-1 gap-8">
             <!-- 左侧控制面板 -->
             <section class="bg-white rounded-lg shadow-md p-6">
                 <h2 id="qrcodeSettingsTitle" class="text-xl font-semibold text-gray-800 mb-4">二维码设置</h2>
@@ -327,13 +327,13 @@
                 <h2 id="previewTitle" class="text-xl font-semibold text-gray-800 mb-4">预览</h2>
                 <div class="flex flex-col items-center gap-6">
                     <!-- 二维码预览 -->
-                    <div id="previewContainer" class="flex items-center justify-center p-8 bg-gray-50 rounded-lg">
-                        <div id="qrcodeContainer" class="border-container flex items-center">
-                            <!-- 左侧文字 -->
-                            <div id="textPreview" class="text-container">
-                                <p>二维码左侧文字</p>
+                    <div id="previewContainer" class="flex flex-col items-center justify-center p-8 bg-gray-50 rounded-lg">
+                        <div id="qrcodeContainer" class="border-container flex flex-col items-center gap-4">
+                            <!-- 上方文字 -->
+                            <div id="textPreview" class="text-container text-center">
+                                <p>二维码上方文字</p>
                             </div>
-                            <!-- 右侧二维码 -->
+                            <!-- 下方二维码 -->
                             <div id="qrcode"></div>
                         </div>
                     </div>
