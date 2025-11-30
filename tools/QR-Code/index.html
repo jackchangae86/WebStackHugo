@@ -191,36 +191,15 @@
         </div>
     </div>
     </main> -->
-<body>
     <div class="container mx-auto px-4 py-8">
-        <header class="relative mb-8">
-            <div class="absolute top-0 right-0">
-                <!-- 自定义语言选择器 -->
-                <div id="customLanguageSelect" class="relative language-selector">
-                    <div class="language-selector-selected px-2 py-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm cursor-pointer flex items-center gap-2">
-                        <img src="https://flagcdn.com/w20/cn.png" alt="中文" class="w-5 h-auto">
-                        <span>中文</span>
-                        <span class="select-arrow">▼</span>
-                    </div>
-                    <div class="language-selector-options hidden absolute right-0 mt-1 w-40 bg-white border border-gray-300 rounded-md shadow-lg z-10">
-                        <div class="language-selector-option px-3 py-2 cursor-pointer hover:bg-gray-100 flex items-center gap-2" data-value="zh">
-                            <img src="https://flagcdn.com/w20/cn.png" alt="中文" class="w-5 h-auto">
-                            <span>中文</span>
-                        </div>
-                        <div class="language-selector-option px-3 py-2 cursor-pointer hover:bg-gray-100 flex items-center gap-2" data-value="en">
-                            <img src="https://flagcdn.com/w20/us.png" alt="English" class="w-5 h-auto">
-                            <span>English</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <header class="mb-8">
             <div class="text-center">
                 <h1 id="appTitle" class="text-3xl font-bold text-gray-800">在线免费带边框、自定义文字的二维码生成器</h1>
                 <p id="appSubtitle" class="text-gray-600 mt-2">带边框、自定义文字的二维码生成器</p>
             </div>
         </header>
 
-        <main class="grid grid-cols-1 gap-8">
+        <main class="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <!-- 左侧控制面板 -->
             <section class="bg-white rounded-lg shadow-md p-6">
                 <h2 id="qrcodeSettingsTitle" class="text-xl font-semibold text-gray-800 mb-4">二维码设置</h2>
@@ -327,13 +306,13 @@
                 <h2 id="previewTitle" class="text-xl font-semibold text-gray-800 mb-4">预览</h2>
                 <div class="flex flex-col items-center gap-6">
                     <!-- 二维码预览 -->
-                    <div id="previewContainer" class="flex flex-col items-center justify-center p-8 bg-gray-50 rounded-lg">
-                        <div id="qrcodeContainer" class="border-container flex flex-col items-center gap-4">
-                            <!-- 上方文字 -->
-                            <div id="textPreview" class="text-container text-center">
-                                <p>二维码上方文字</p>
+                    <div id="previewContainer" class="flex items-center justify-center p-8 bg-gray-50 rounded-lg">
+                        <div id="qrcodeContainer" class="border-container flex items-center gap-4">
+                            <!-- 左侧文字 -->
+                            <div id="textPreview" class="text-container">
+                                <p>二维码左侧文字</p>
                             </div>
-                            <!-- 下方二维码 -->
+                            <!-- 右侧二维码 -->
                             <div id="qrcode"></div>
                         </div>
                     </div>
